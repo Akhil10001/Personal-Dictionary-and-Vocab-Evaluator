@@ -1,12 +1,11 @@
 
   <form action="/store" method="POST" class="feeback-form">
-    <label>
 
       <label for="username">Enter your Name:</label>
-      <input type="text" name="username" placeholder="Name"  class="data"/><br><br>
+      <input type="text" id="username" name="username" placeholder="Name"  class="data"/><br><br>
 
       <label for="email">Enter your Email:</label>
-      <input type="text" name="email" placeholder="Email"  class="data"/>
+      <input type="text" id="email" name="email" placeholder="Email"  class="data"/>
 
         <p>How would you rate this experience?</p>
 
@@ -27,10 +26,8 @@
         <label for="fourstar">5</label><br><br>
 
 
-        <textarea name="feedback" id="feeback" value="feedback" cols="30" rows="10"></textarea>
+        <textarea name="feedback" id="feeback" cols="30" rows="10"></textarea>
         <br>
         <br>
-      
-    </label>
     <button type="submit">Submit</button>
         </form>
